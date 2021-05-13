@@ -128,3 +128,12 @@ body {
 .temp-divider {
   color: #b88855;
 }
+.open-source {
+  color: #b88855;
+}
+
+#github-link {
+  color: #b88855;
+  text-decoration: none;
+  font-weight: 700;
+}
