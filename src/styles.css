@@ -1,0 +1,130 @@
+body {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  border: 1px solid #b88855;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #b88855;
+  max-width: 700px;
+  padding-top: 20px;
+  background: #e2d1c3;
+}
+.place-input,
+.search-button,
+.location-button {
+  background: #e2d1c3;
+  border: 2px solid #b88855;
+  border-radius: 8px;
+  color: #b88855;
+  font-size: 18px;
+  padding: 5px 20px;
+}
+.place-input {
+  outline: 0;
+}
+.search-button {
+  box-shadow: 5px 5px 5px #8d6b46;
+  position: relative;
+  left: 251px;
+  bottom: 41px;
+}
+.location-button {
+  box-shadow: 5px 5px 5px #8d6b46;
+  background: #b88855;
+  color: #e2d1c3;
+  position: relative;
+  left: 255px;
+  bottom: 41px;
+  padding: 5px 10px;
+}
+
+.search.button:hover {
+  background: #b88855;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.city-header {
+  color: #b88855;
+  font-size: 30px;
+}
+.display-day-time {
+  color: #b88855;
+  font-size: 30px;
+}
+.weather-conditions {
+  color: #e7b053;
+  font-size: 20px;
+  list-style: none;
+  margin-top: 10px;
+  padding: 0;
+}
+.weather-forecast {
+  text-align: center;
+}
+.temp-today,
+.temp-C {
+  color: #e7b053;
+  font-size: 56px;
+  font-weight: 700;
+  padding-top: 0;
+  position: relative;
+  bottom: 100px;
+}
+.temp-link {
+  text-decoration: none;
+  color: #e7b053;
+}
+.temp-link:hover {
+  cursor: pointer;
+  color: #b88855;
+}
+.temperature-conversion {
+  color: #e7b053;
+  font-weight: 300;
+  font-size: 15px;
+  position: relative;
+  bottom: 100px;
+}
+.temp-F {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.weather-forecast {
+  padding: 0;
+  position: relative;
+  bottom: 50px;
+  left: 30px;
+}
+.weather-forecast-weekday {
+  color: #b88855;
+  font-size: 18px;
+  font-weight: 700;
+}
+.weather-forecast-date {
+  color: #b88855;
+  font-size: 16px;
+}
+
+.icon-today {
+  color: #7da79d;
+  opacity: 80%;
+  font-size: 56px;
+  position: relative;
+  bottom: 100px;
+}
+.icon-forecast {
+  color: #7da79d;
+  font-size: 20px;
+}
+.temp-max,
+.temp-min {
+  color: #e7b053;
+  font-size: 16px;
+  font-weight: 500;
+}
+.temp-divider {
+  color: #b88855;
+}
